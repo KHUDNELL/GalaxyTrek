@@ -16,9 +16,12 @@ body {
 
     &--main{
         display: block;
+        white-space: nowrap;
+        font-family: 'Orbitron', sans-serif;
         font-size: 6rem;
-        font-weight: 400;
-        letter-spacing: 3.3rem;
+        text-shadow: 2px 2px 8px #252525;
+        font-weight: 600;
+        letter-spacing: 2rem;
         animation-name: moveInLeft;
         animation-duration: 1s;
         animation-timing-function: ease-out;
@@ -34,6 +37,7 @@ body {
         font-size: 2rem;
         font-weight: 700;
         letter-spacing: 1.75rem;
+        text-shadow: 2px 2px 8px #252525;
         animation: moveInRight 1s ease-out;
 
         @include respond(phone) {
@@ -50,6 +54,7 @@ body {
     display: inline-block;
     background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
     -webkit-background-clip: text;
+    background-clip: text;
     
     
     color: transparent;

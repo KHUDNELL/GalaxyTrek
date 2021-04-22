@@ -1,12 +1,7 @@
 
 .header {
     height: 85vh;
-    background-image: linear-gradient(
-        to right bottom,
-         rgba($color-primary-light, 0.6),
-          rgba($color-primary-dark, 0.8)),
-           url(../img/hero-small.jpg);
-    background-size: cover;
+  
     
     background-position: top;
     position: relative;
@@ -18,7 +13,7 @@
     height: 95vh;
     }
 
-
+/*
     @media (min-resolution: 192dpi) and (min-width: 37.5em),
     (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
     (min-width: 125em) {
@@ -27,7 +22,7 @@
              rgba($color-primary-light, 0.6),
               rgba($color-primary-dark, 0.8)),
                url(../img/hero.jpg);
-    }
+    }*/
 
       
     @include respond(phone) {
@@ -44,7 +39,10 @@
     }
 
     &__logo {
-        height: 6rem;
+        height: 9rem;
+        animation-name: spaceShipShake;
+        animation-duration: .4s;
+        animation-iteration-count: infinite;
         
     }
     
@@ -56,3 +54,15 @@
         text-align: center;
     }
 } 
+.bg-video-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden; }
+    .bg-video-1__content {
+      height: 100%;
+      width: 100%;
+      object-fit: cover; }
