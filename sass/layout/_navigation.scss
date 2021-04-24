@@ -86,6 +86,7 @@
             background-size: 225%;
             transition: all .4s;
 
+          
             span {
                 margin-right: 1.5rem;
                 display: inline-block;
@@ -96,6 +97,7 @@
             background-position: 100%;
             color: $color-primary;
             transform: translateX(1rem);
+            
         }
        
     }

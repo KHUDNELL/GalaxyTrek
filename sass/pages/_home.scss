@@ -11,11 +11,11 @@
 
 .section-features {
     padding: 20rem 0;
-    background-image: linear-gradient(
+    background-image: /*linear-gradient(
         to right bottom,
-         rgba($color-primary-light, 0.6),
-          rgba($color-primary-dark, 0.8)),
-           url(../img/nat-4.jpg);
+         rgba($color-green-light, 0.6),
+          rgba($color-primary-dark, 0.8)),*/
+           url(../img/back-drop.jpeg);
            background-size: cover;
 
            transform: skewY(-7deg);
@@ -51,7 +51,7 @@
 
 .section-book {
     padding: 15rem 0;
-    background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+    background-image: linear-gradient(to right bottom, $color-green-light, $color-green-dark);
 }
 
 .book {

@@ -40,11 +40,11 @@
         }
     }
     &--green {
-        background-color: $color-primary;
+        background-color: $color-green;
         color: $color-white;
 
         &::after {
-            background-color: $color-primary;
+            background-color: $color-green;
         }
     }
     
@@ -69,17 +69,17 @@
 .btn-text {
     &:link, &:visited {
         font-size: $default-font-size;
-        color: $color-primary;
+        color: $color-white;
         display: inline-block;
         text-decoration: none;
-        border-bottom: 1px solid $color-primary;
+        border-bottom: 1px solid $color-white;
         padding: 3px 3px 3px 6px;
         transition: all .2s;
        
     }
 
     &:hover {
-        background-color: $color-primary;
+        background-color: $color-green-dark;
         color: $color-white;
         box-shadow: 0 1rem 2rem rgba($color-black, .15);
         transform: translateY(-2px);
