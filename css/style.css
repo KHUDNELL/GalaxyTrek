@@ -176,7 +176,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: url(../img/back-drop.jpeg);
+  background-image: url(../img/clouds.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
@@ -203,10 +203,10 @@ body {
 
 .section-book {
   padding: 15rem 0;
-  background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
+  background-image: linear-gradient(to right bottom, #161d3b, #28b485); }
 
 .book {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nebula-2.jpg);
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/book-background.jpg);
   background-size: cover;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
@@ -294,6 +294,25 @@ body {
   transform: translateY(-2px); }
 
 .btn-text:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(0px); }
+
+.btn-text-green:link, .btn-text-green:visited {
+  font-size: 1.6rem;
+  color: #55c57a;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid #55c57a;
+  padding: 3px 3px 3px 6px;
+  transition: all .2s; }
+
+.btn-text-green:hover {
+  background-color: #28b485;
+  color: #fff;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px); }
+
+.btn-text-green:active {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: translateY(0px); }
 
@@ -962,6 +981,9 @@ body {
   .popup__left {
     width: 33.333333%;
     display: table-cell; }
+    @media (max-width: 37.5em) {
+      .popup__left {
+        display: none; } }
   .popup__right {
     width: 66.6666667%;
     display: table-cell;
@@ -983,6 +1005,14 @@ body {
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto; }
+    @media (max-width: 37.5em) {
+      .popup__text {
+        -moz-column-count: unset;
+        -moz-column-gap: 7rem;
+        -moz-column-rule: 1px solid #eee;
+        column-count: unset;
+        column-gap: 7rem;
+        column-rule: 1px solid #eee; } }
   .popup:target {
     opacity: 1;
     visibility: visible; }

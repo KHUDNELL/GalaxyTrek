@@ -15,7 +15,7 @@
         to right bottom,
          rgba($color-green-light, 0.6),
           rgba($color-primary-dark, 0.8)),*/
-           url(../img/back-drop.jpeg);
+           url(../img/clouds.jpg);
            background-size: cover;
 
            transform: skewY(-7deg);
@@ -51,7 +51,7 @@
 
 .section-book {
     padding: 15rem 0;
-    background-image: linear-gradient(to right bottom, $color-green-light, $color-green-dark);
+    background-image: linear-gradient(to right bottom,  #161d3b,$color-green-dark);
 }
 
 .book {
@@ -60,7 +60,7 @@
      rgba($color-white, .9) 50%,
      
      transparent 50%),
-      url(../img/nebula-2.jpg);
+      url(../img/book-background.jpg);
     background-size: cover;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
