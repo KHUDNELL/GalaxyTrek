@@ -97,7 +97,8 @@ body {
     @media (max-width: 37.5em) {
       .heading-primary--main {
         letter-spacing: 1rem;
-        font-size: 4rem; } }
+        white-space: unset;
+        line-height: 1.1; } }
   .heading-primary--sub {
     display: block;
     font-size: 2rem;
@@ -354,6 +355,9 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
+    @media (max-width: 37.5em) {
+      .header__text-box {
+        top: 40%; } }
 
 .bg-video-1 {
   position: absolute;

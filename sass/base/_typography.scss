@@ -29,7 +29,9 @@ body {
 
     @include respond(phone) {
         letter-spacing: 1rem;
-        font-size: 4rem;
+        white-space: unset;
+        line-height: 1.1;
+        
     }
     }
     &--sub {
